@@ -1,6 +1,5 @@
-package app.codechallenge.testapplication.ui.theme
+package app.codechallenge.testapplication.presentation.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
