@@ -1,7 +1,7 @@
 package app.codechallenge.testapplication.app.di
 
 import app.codechallenge.testapplication.app.config.Config
-import app.codechallenge.testapplication.data.network.ApiService
+import app.codechallenge.testapplication.data.datasource.network.ApiService
 import com.google.gson.Gson
 import dagger.Module
 import dagger.Provides
