@@ -4,12 +4,13 @@ import app.codechallenge.testapplication.domain.repository.RemoteRepository
 import app.codechallenge.testapplication.domain.usecase.GetArticleDetailUseCase
 import app.codechallenge.testapplication.domain.usecase.GetArticlesUseCase
 import app.codechallenge.testapplication.domain.usecase.GetInfosUseCase
+import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 
-@Singleton
+@Module
 @InstallIn(SingletonComponent::class)
 object UseCaseModule {
 
